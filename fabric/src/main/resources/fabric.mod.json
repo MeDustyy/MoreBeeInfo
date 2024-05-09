@@ -8,9 +8,9 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod",
-        "issues": "https://github.com/FabricMC/fabric-example-mod/issues"
+        "homepage": "https://modrinth.com/mod/morebeeinfo",
+        "sources": "https://github.com/anviaan/MoreBeeInfo",
+        "issues": "https://github.com/anviaan/MoreBeeInfo/issues"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
@@ -28,7 +28,7 @@
         "fabricloader": ">=${fabric_loader_version}",
         "fabric-api": "*",
         "minecraft": ">=${minecraft_version}",
-        "java": ">=17"
+        "java": ">=${java_version}"
     },
     "suggests": {
         "another-mod": "*"
